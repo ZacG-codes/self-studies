@@ -52,3 +52,8 @@ Windows
 Git website
 
 ## First-Time Git Setup
+
+- Only needed once on any computer
+
+git config
+- a tool that allows configuration of how git looks and operates
