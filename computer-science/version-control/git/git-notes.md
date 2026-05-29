@@ -57,3 +57,25 @@ Git website
 
 git config
 - a tool that allows configuration of how git looks and operates
+- 3 locations for the config file
+    1. [path]/etc/gitconfig - values specific to all users on the system (needs root privileges)
+    2. ~/.gitconfig or ~/.config/git/config - value specific to the user
+    3. config file in the current working git directory (.git/config) - specific to the current repo
+
+
+## Your Identity
+
+first steps:
+- set username and email
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
+using global sets these values for all git projects with that user on the system
+to change these values within certain projects pass new values without the --global option
+
+## Your Editor
+
+
