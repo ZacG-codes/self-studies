@@ -78,4 +78,21 @@ to change these values within certain projects pass new values without the --glo
 
 ## Your Editor
 
+After identity setup, you can configure the editor used by git when prompted for message input
+- if none explicity specified, the system default editor will be used
+
+```
+$ git config --global core.editor vim
+```
+
+## Default Branch Name
+
+Git by default creates a branch named 'main'
+
+To set a different default branch name:
+
+```
+git config --global init.defaultBranch exampleName
+```
+
 
