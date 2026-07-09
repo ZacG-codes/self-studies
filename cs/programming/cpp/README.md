@@ -2,5 +2,4 @@
 
 ## Academic course on cpp
 
-Textbook: starting out with c++ for control structures through objects
-(subject to change or further books for learning)
+Textbook: C++ Primer 5e by Lippman
