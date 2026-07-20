@@ -1,5 +1,5 @@
 # README for cpp learning
 
-## Academic course on cpp
+## Course on C++
 
-Textbook: C++ Primer 5e by Lippman
+Textbook: Programming Principles and Practice Using C++ Third Edition
